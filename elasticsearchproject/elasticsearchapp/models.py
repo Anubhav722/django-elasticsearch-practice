@@ -5,6 +5,7 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 
+# from .signals import indexpost
 from .search import BlogPostIndex
 # Create your models here.
 
@@ -27,3 +28,11 @@ class BlogPost(models.Model):
 			)
 		obj.save()
 		return obj.to_dict(include_meta=True)
+
+from django.db.models.signals import post_save, pre_save
+from django.dispatch import receiver
+
+@receiver(post_save, sender=BlogPost)
+def index_post(sender, instance, **kwargs):
+	# import ipdb; ipdb.set_trace()
+	instance.indexing()

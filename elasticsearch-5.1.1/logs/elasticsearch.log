@@ -1,197 +1,29 @@
-[2017-06-01T20:23:19,169][INFO ][o.e.n.Node               ] [] initializing ...
-[2017-06-01T20:23:19,818][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] using [1] data paths, mounts [[/ (/dev/sda2)]], net usable_space [410.4gb], net total_space [454gb], spins? [possibly], types [ext4]
-[2017-06-01T20:23:19,818][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-06-01T20:23:19,821][INFO ][o.e.n.Node               ] node name [eE7osxw] derived from node ID [eE7osxwISMKcoTQd_BrSPQ]; set [node.name] to override
-[2017-06-01T20:23:19,890][INFO ][o.e.n.Node               ] version[5.1.1], pid[7883], build[5395e21/2016-12-06T12:36:15.409Z], OS[Linux/4.4.0-78-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
-[2017-06-01T20:23:22,721][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [aggs-matrix-stats]
-[2017-06-01T20:23:22,721][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [ingest-common]
-[2017-06-01T20:23:22,721][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-expression]
-[2017-06-01T20:23:22,721][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-groovy]
-[2017-06-01T20:23:22,721][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-mustache]
-[2017-06-01T20:23:22,722][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-painless]
-[2017-06-01T20:23:22,722][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [percolator]
-[2017-06-01T20:23:22,722][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [reindex]
-[2017-06-01T20:23:22,722][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty3]
-[2017-06-01T20:23:22,722][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty4]
-[2017-06-01T20:23:22,723][INFO ][o.e.p.PluginsService     ] [eE7osxw] no plugins loaded
-[2017-06-01T20:23:32,662][INFO ][o.e.n.Node               ] initialized
-[2017-06-01T20:23:32,663][INFO ][o.e.n.Node               ] [eE7osxw] starting ...
-[2017-06-01T20:23:35,442][INFO ][o.e.t.TransportService   ] [eE7osxw] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2017-06-01T20:23:35,453][WARN ][o.e.b.BootstrapCheck     ] [eE7osxw] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
-[2017-06-01T20:23:38,770][INFO ][o.e.c.s.ClusterService   ] [eE7osxw] new_master {eE7osxw}{eE7osxwISMKcoTQd_BrSPQ}{sZF-XL7LQYGHKxKbeQK8Xw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-06-01T20:23:42,047][INFO ][o.e.h.HttpServer         ] [eE7osxw] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2017-06-01T20:23:42,048][INFO ][o.e.n.Node               ] [eE7osxw] started
-[2017-06-01T20:23:42,781][INFO ][o.e.g.GatewayService     ] [eE7osxw] recovered [0] indices into cluster_state
-[2017-06-01T20:24:57,568][INFO ][o.e.n.Node               ] [eE7osxw] stopping ...
-[2017-06-01T20:24:57,584][INFO ][o.e.n.Node               ] [eE7osxw] stopped
-[2017-06-01T20:24:57,584][INFO ][o.e.n.Node               ] [eE7osxw] closing ...
-[2017-06-01T20:24:58,018][INFO ][o.e.n.Node               ] [eE7osxw] closed
-[2017-06-01T20:26:33,082][INFO ][o.e.n.Node               ] [] initializing ...
-[2017-06-01T20:26:33,617][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] using [1] data paths, mounts [[/ (/dev/sda2)]], net usable_space [410.3gb], net total_space [454gb], spins? [possibly], types [ext4]
-[2017-06-01T20:26:33,618][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-06-01T20:26:33,654][INFO ][o.e.n.Node               ] node name [eE7osxw] derived from node ID [eE7osxwISMKcoTQd_BrSPQ]; set [node.name] to override
-[2017-06-01T20:26:33,704][INFO ][o.e.n.Node               ] version[5.1.1], pid[8151], build[5395e21/2016-12-06T12:36:15.409Z], OS[Linux/4.4.0-78-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
-[2017-06-01T20:26:37,458][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [aggs-matrix-stats]
-[2017-06-01T20:26:37,458][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [ingest-common]
-[2017-06-01T20:26:37,459][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-expression]
-[2017-06-01T20:26:37,459][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-groovy]
-[2017-06-01T20:26:37,459][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-mustache]
-[2017-06-01T20:26:37,459][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-painless]
-[2017-06-01T20:26:37,459][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [percolator]
-[2017-06-01T20:26:37,459][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [reindex]
-[2017-06-01T20:26:37,460][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty3]
-[2017-06-01T20:26:37,460][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty4]
-[2017-06-01T20:26:37,460][INFO ][o.e.p.PluginsService     ] [eE7osxw] no plugins loaded
-[2017-06-01T20:26:43,883][INFO ][o.e.n.Node               ] initialized
-[2017-06-01T20:26:43,884][INFO ][o.e.n.Node               ] [eE7osxw] starting ...
-[2017-06-01T20:26:44,266][INFO ][o.e.t.TransportService   ] [eE7osxw] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2017-06-01T20:26:44,273][WARN ][o.e.b.BootstrapCheck     ] [eE7osxw] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
-[2017-06-01T20:26:47,394][INFO ][o.e.c.s.ClusterService   ] [eE7osxw] new_master {eE7osxw}{eE7osxwISMKcoTQd_BrSPQ}{j7XrtJAQS1m-Vg7f672pGw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-06-01T20:26:47,497][INFO ][o.e.h.HttpServer         ] [eE7osxw] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2017-06-01T20:26:47,497][INFO ][o.e.n.Node               ] [eE7osxw] started
-[2017-06-01T20:26:47,571][INFO ][o.e.g.GatewayService     ] [eE7osxw] recovered [0] indices into cluster_state
-[2017-06-01T20:46:10,061][INFO ][o.e.n.Node               ] [eE7osxw] stopping ...
-[2017-06-01T20:46:10,379][INFO ][o.e.n.Node               ] [eE7osxw] stopped
-[2017-06-01T20:46:10,380][INFO ][o.e.n.Node               ] [eE7osxw] closing ...
-[2017-06-01T20:46:10,591][INFO ][o.e.n.Node               ] [eE7osxw] closed
-[2017-06-01T21:16:07,444][INFO ][o.e.n.Node               ] [] initializing ...
-[2017-06-01T21:16:08,112][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] using [1] data paths, mounts [[/ (/dev/sda2)]], net usable_space [410.4gb], net total_space [454gb], spins? [possibly], types [ext4]
-[2017-06-01T21:16:08,113][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-06-01T21:16:08,128][INFO ][o.e.n.Node               ] node name [eE7osxw] derived from node ID [eE7osxwISMKcoTQd_BrSPQ]; set [node.name] to override
-[2017-06-01T21:16:08,177][INFO ][o.e.n.Node               ] version[5.1.1], pid[11122], build[5395e21/2016-12-06T12:36:15.409Z], OS[Linux/4.4.0-78-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
-[2017-06-01T21:16:11,021][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [aggs-matrix-stats]
-[2017-06-01T21:16:11,022][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [ingest-common]
-[2017-06-01T21:16:11,022][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-expression]
-[2017-06-01T21:16:11,022][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-groovy]
-[2017-06-01T21:16:11,023][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-mustache]
-[2017-06-01T21:16:11,023][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-painless]
-[2017-06-01T21:16:11,023][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [percolator]
-[2017-06-01T21:16:11,023][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [reindex]
-[2017-06-01T21:16:11,023][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty3]
-[2017-06-01T21:16:11,024][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty4]
-[2017-06-01T21:16:11,024][INFO ][o.e.p.PluginsService     ] [eE7osxw] no plugins loaded
-[2017-06-01T21:16:16,921][INFO ][o.e.n.Node               ] initialized
-[2017-06-01T21:16:16,921][INFO ][o.e.n.Node               ] [eE7osxw] starting ...
-[2017-06-01T21:16:18,891][INFO ][o.e.t.TransportService   ] [eE7osxw] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2017-06-01T21:16:18,903][WARN ][o.e.b.BootstrapCheck     ] [eE7osxw] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
-[2017-06-01T21:16:22,235][INFO ][o.e.c.s.ClusterService   ] [eE7osxw] new_master {eE7osxw}{eE7osxwISMKcoTQd_BrSPQ}{RQNLYygNTSG8t7eT-rG9Ig}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-06-01T21:16:22,468][INFO ][o.e.h.HttpServer         ] [eE7osxw] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2017-06-01T21:16:22,468][INFO ][o.e.n.Node               ] [eE7osxw] started
-[2017-06-01T21:16:22,633][INFO ][o.e.g.GatewayService     ] [eE7osxw] recovered [0] indices into cluster_state
-[2017-06-01T21:37:07,722][INFO ][o.e.c.m.MetaDataCreateIndexService] [eE7osxw] [blogpost-index] creating index, cause [api], templates [], shards [5]/[1], mappings [blog_post_index]
-[2017-06-01T21:39:00,851][INFO ][o.e.n.Node               ] [eE7osxw] stopping ...
-[2017-06-01T21:39:00,924][INFO ][o.e.n.Node               ] [eE7osxw] stopped
-[2017-06-01T21:39:00,925][INFO ][o.e.n.Node               ] [eE7osxw] closing ...
-[2017-06-01T21:39:00,962][INFO ][o.e.n.Node               ] [eE7osxw] closed
-[2017-06-01T21:39:19,277][INFO ][o.e.n.Node               ] [] initializing ...
-[2017-06-01T21:39:19,708][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] using [1] data paths, mounts [[/ (/dev/sda2)]], net usable_space [410.4gb], net total_space [454gb], spins? [possibly], types [ext4]
-[2017-06-01T21:39:19,709][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-06-01T21:39:19,815][INFO ][o.e.n.Node               ] node name [eE7osxw] derived from node ID [eE7osxwISMKcoTQd_BrSPQ]; set [node.name] to override
-[2017-06-01T21:39:19,842][INFO ][o.e.n.Node               ] version[5.1.1], pid[12212], build[5395e21/2016-12-06T12:36:15.409Z], OS[Linux/4.4.0-78-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
-[2017-06-01T21:39:22,096][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [aggs-matrix-stats]
-[2017-06-01T21:39:22,096][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [ingest-common]
-[2017-06-01T21:39:22,096][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-expression]
-[2017-06-01T21:39:22,097][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-groovy]
-[2017-06-01T21:39:22,097][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-mustache]
-[2017-06-01T21:39:22,097][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-painless]
-[2017-06-01T21:39:22,097][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [percolator]
-[2017-06-01T21:39:22,097][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [reindex]
-[2017-06-01T21:39:22,097][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty3]
-[2017-06-01T21:39:22,098][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty4]
-[2017-06-01T21:39:22,098][INFO ][o.e.p.PluginsService     ] [eE7osxw] no plugins loaded
-[2017-06-01T21:39:27,878][INFO ][o.e.n.Node               ] initialized
-[2017-06-01T21:39:27,879][INFO ][o.e.n.Node               ] [eE7osxw] starting ...
-[2017-06-01T21:39:28,455][INFO ][o.e.t.TransportService   ] [eE7osxw] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2017-06-01T21:39:28,461][WARN ][o.e.b.BootstrapCheck     ] [eE7osxw] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
-[2017-06-01T21:39:31,751][INFO ][o.e.c.s.ClusterService   ] [eE7osxw] new_master {eE7osxw}{eE7osxwISMKcoTQd_BrSPQ}{zzTAELRyQ6qabyAEQu2MaQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-06-01T21:39:31,980][INFO ][o.e.h.HttpServer         ] [eE7osxw] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2017-06-01T21:39:31,981][INFO ][o.e.n.Node               ] [eE7osxw] started
-[2017-06-01T21:39:32,717][INFO ][o.e.g.GatewayService     ] [eE7osxw] recovered [1] indices into cluster_state
-[2017-06-01T21:39:34,863][INFO ][o.e.c.r.a.AllocationService] [eE7osxw] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blogpost-index][4]] ...]).
-[2017-06-01T21:55:43,342][INFO ][o.e.n.Node               ] [eE7osxw] stopping ...
-[2017-06-01T21:55:44,546][INFO ][o.e.n.Node               ] [eE7osxw] stopped
-[2017-06-01T21:55:44,547][INFO ][o.e.n.Node               ] [eE7osxw] closing ...
-[2017-06-01T21:55:45,142][INFO ][o.e.n.Node               ] [eE7osxw] closed
-[2017-06-01T22:52:59,698][INFO ][o.e.n.Node               ] [] initializing ...
-[2017-06-01T22:53:02,020][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] using [1] data paths, mounts [[/ (/dev/sda2)]], net usable_space [410.3gb], net total_space [454gb], spins? [possibly], types [ext4]
-[2017-06-01T22:53:02,021][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-06-01T22:53:02,700][INFO ][o.e.n.Node               ] node name [eE7osxw] derived from node ID [eE7osxwISMKcoTQd_BrSPQ]; set [node.name] to override
-[2017-06-01T22:53:03,047][INFO ][o.e.n.Node               ] version[5.1.1], pid[15439], build[5395e21/2016-12-06T12:36:15.409Z], OS[Linux/4.4.0-78-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
-[2017-06-01T22:53:29,483][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [aggs-matrix-stats]
-[2017-06-01T22:53:29,484][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [ingest-common]
-[2017-06-01T22:53:29,484][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-expression]
-[2017-06-01T22:53:29,484][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-groovy]
-[2017-06-01T22:53:29,484][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-mustache]
-[2017-06-01T22:53:29,484][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-painless]
-[2017-06-01T22:53:29,484][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [percolator]
-[2017-06-01T22:53:29,485][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [reindex]
-[2017-06-01T22:53:29,485][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty3]
-[2017-06-01T22:53:29,485][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty4]
-[2017-06-01T22:53:29,486][INFO ][o.e.p.PluginsService     ] [eE7osxw] no plugins loaded
-[2017-06-01T22:54:03,804][INFO ][o.e.n.Node               ] initialized
-[2017-06-01T22:54:03,804][INFO ][o.e.n.Node               ] [eE7osxw] starting ...
-[2017-06-01T22:54:04,362][INFO ][o.e.t.TransportService   ] [eE7osxw] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2017-06-01T22:54:04,386][WARN ][o.e.b.BootstrapCheck     ] [eE7osxw] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
-[2017-06-01T22:54:07,653][INFO ][o.e.c.s.ClusterService   ] [eE7osxw] new_master {eE7osxw}{eE7osxwISMKcoTQd_BrSPQ}{S-J3e8PqSwmhjYdqeiIBjg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-06-01T22:54:08,261][INFO ][o.e.h.HttpServer         ] [eE7osxw] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2017-06-01T22:54:08,262][INFO ][o.e.n.Node               ] [eE7osxw] started
-[2017-06-01T22:54:09,283][INFO ][o.e.g.GatewayService     ] [eE7osxw] recovered [1] indices into cluster_state
-[2017-06-01T22:54:13,018][INFO ][o.e.c.r.a.AllocationService] [eE7osxw] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blogpost-index][1]] ...]).
-[2017-06-01T23:13:10,358][INFO ][o.e.n.Node               ] [eE7osxw] stopping ...
-[2017-06-01T23:13:11,183][INFO ][o.e.n.Node               ] [eE7osxw] stopped
-[2017-06-01T23:13:11,183][INFO ][o.e.n.Node               ] [eE7osxw] closing ...
-[2017-06-01T23:13:11,243][INFO ][o.e.n.Node               ] [eE7osxw] closed
-[2017-06-01T23:13:41,992][INFO ][o.e.n.Node               ] [] initializing ...
-[2017-06-01T23:13:42,453][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] using [1] data paths, mounts [[/ (/dev/sda2)]], net usable_space [410.3gb], net total_space [454gb], spins? [possibly], types [ext4]
-[2017-06-01T23:13:42,454][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-06-01T23:13:42,499][INFO ][o.e.n.Node               ] node name [eE7osxw] derived from node ID [eE7osxwISMKcoTQd_BrSPQ]; set [node.name] to override
-[2017-06-01T23:13:42,526][INFO ][o.e.n.Node               ] version[5.1.1], pid[16621], build[5395e21/2016-12-06T12:36:15.409Z], OS[Linux/4.4.0-78-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
-[2017-06-01T23:13:45,326][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [aggs-matrix-stats]
-[2017-06-01T23:13:45,327][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [ingest-common]
-[2017-06-01T23:13:45,328][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-expression]
-[2017-06-01T23:13:45,328][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-groovy]
-[2017-06-01T23:13:45,329][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-mustache]
-[2017-06-01T23:13:45,329][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-painless]
-[2017-06-01T23:13:45,329][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [percolator]
-[2017-06-01T23:13:45,330][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [reindex]
-[2017-06-01T23:13:45,330][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty3]
-[2017-06-01T23:13:45,331][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty4]
-[2017-06-01T23:13:45,332][INFO ][o.e.p.PluginsService     ] [eE7osxw] no plugins loaded
-[2017-06-01T23:13:54,180][INFO ][o.e.n.Node               ] initialized
-[2017-06-01T23:13:54,180][INFO ][o.e.n.Node               ] [eE7osxw] starting ...
-[2017-06-01T23:13:54,682][INFO ][o.e.t.TransportService   ] [eE7osxw] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2017-06-01T23:13:54,706][WARN ][o.e.b.BootstrapCheck     ] [eE7osxw] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
-[2017-06-01T23:13:58,068][INFO ][o.e.c.s.ClusterService   ] [eE7osxw] new_master {eE7osxw}{eE7osxwISMKcoTQd_BrSPQ}{bgyZ8CVhRXqgbyLLhagKLQ}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-06-01T23:13:58,219][INFO ][o.e.h.HttpServer         ] [eE7osxw] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2017-06-01T23:13:58,219][INFO ][o.e.n.Node               ] [eE7osxw] started
-[2017-06-01T23:13:59,040][INFO ][o.e.g.GatewayService     ] [eE7osxw] recovered [1] indices into cluster_state
-[2017-06-01T23:14:00,853][INFO ][o.e.c.r.a.AllocationService] [eE7osxw] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blogpost-index][0]] ...]).
-[2017-06-01T23:22:08,732][INFO ][o.e.n.Node               ] [eE7osxw] stopping ...
-[2017-06-01T23:22:09,172][INFO ][o.e.n.Node               ] [eE7osxw] stopped
-[2017-06-01T23:22:09,195][INFO ][o.e.n.Node               ] [eE7osxw] closing ...
-[2017-06-01T23:22:09,285][INFO ][o.e.n.Node               ] [eE7osxw] closed
-[2017-06-01T23:22:22,602][INFO ][o.e.n.Node               ] [] initializing ...
-[2017-06-01T23:22:23,217][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] using [1] data paths, mounts [[/ (/dev/sda2)]], net usable_space [410.3gb], net total_space [454gb], spins? [possibly], types [ext4]
-[2017-06-01T23:22:23,218][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] heap size [1.9gb], compressed ordinary object pointers [true]
-[2017-06-01T23:22:23,305][INFO ][o.e.n.Node               ] node name [eE7osxw] derived from node ID [eE7osxwISMKcoTQd_BrSPQ]; set [node.name] to override
-[2017-06-01T23:22:23,368][INFO ][o.e.n.Node               ] version[5.1.1], pid[17150], build[5395e21/2016-12-06T12:36:15.409Z], OS[Linux/4.4.0-78-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
-[2017-06-01T23:22:26,969][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [aggs-matrix-stats]
-[2017-06-01T23:22:26,970][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [ingest-common]
-[2017-06-01T23:22:26,970][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-expression]
-[2017-06-01T23:22:26,970][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-groovy]
-[2017-06-01T23:22:26,970][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-mustache]
-[2017-06-01T23:22:26,970][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-painless]
-[2017-06-01T23:22:26,971][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [percolator]
-[2017-06-01T23:22:26,971][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [reindex]
-[2017-06-01T23:22:26,971][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty3]
-[2017-06-01T23:22:26,971][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty4]
-[2017-06-01T23:22:26,972][INFO ][o.e.p.PluginsService     ] [eE7osxw] no plugins loaded
-[2017-06-01T23:22:32,652][INFO ][o.e.n.Node               ] initialized
-[2017-06-01T23:22:32,653][INFO ][o.e.n.Node               ] [eE7osxw] starting ...
-[2017-06-01T23:22:33,050][INFO ][o.e.t.TransportService   ] [eE7osxw] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
-[2017-06-01T23:22:33,059][WARN ][o.e.b.BootstrapCheck     ] [eE7osxw] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
-[2017-06-01T23:22:36,260][INFO ][o.e.c.s.ClusterService   ] [eE7osxw] new_master {eE7osxw}{eE7osxwISMKcoTQd_BrSPQ}{IPw5YsWgTNOZVOOu5OyLOg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
-[2017-06-01T23:22:36,441][INFO ][o.e.h.HttpServer         ] [eE7osxw] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
-[2017-06-01T23:22:36,441][INFO ][o.e.n.Node               ] [eE7osxw] started
-[2017-06-01T23:22:37,406][INFO ][o.e.g.GatewayService     ] [eE7osxw] recovered [1] indices into cluster_state
-[2017-06-01T23:22:39,587][INFO ][o.e.c.r.a.AllocationService] [eE7osxw] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blogpost-index][1]] ...]).
+[2017-06-02T00:02:23,080][INFO ][o.e.n.Node               ] [] initializing ...
+[2017-06-02T00:02:23,725][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] using [1] data paths, mounts [[/ (/dev/sda2)]], net usable_space [410.3gb], net total_space [454gb], spins? [possibly], types [ext4]
+[2017-06-02T00:02:23,726][INFO ][o.e.e.NodeEnvironment    ] [eE7osxw] heap size [1.9gb], compressed ordinary object pointers [true]
+[2017-06-02T00:02:23,838][INFO ][o.e.n.Node               ] node name [eE7osxw] derived from node ID [eE7osxwISMKcoTQd_BrSPQ]; set [node.name] to override
+[2017-06-02T00:02:23,845][INFO ][o.e.n.Node               ] version[5.1.1], pid[20854], build[5395e21/2016-12-06T12:36:15.409Z], OS[Linux/4.4.0-78-generic/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_131/25.131-b11]
+[2017-06-02T00:02:27,934][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [aggs-matrix-stats]
+[2017-06-02T00:02:27,934][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [ingest-common]
+[2017-06-02T00:02:27,935][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-expression]
+[2017-06-02T00:02:27,935][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-groovy]
+[2017-06-02T00:02:27,935][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-mustache]
+[2017-06-02T00:02:27,935][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [lang-painless]
+[2017-06-02T00:02:27,936][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [percolator]
+[2017-06-02T00:02:27,936][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [reindex]
+[2017-06-02T00:02:27,936][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty3]
+[2017-06-02T00:02:27,936][INFO ][o.e.p.PluginsService     ] [eE7osxw] loaded module [transport-netty4]
+[2017-06-02T00:02:27,937][INFO ][o.e.p.PluginsService     ] [eE7osxw] no plugins loaded
+[2017-06-02T00:02:34,678][INFO ][o.e.n.Node               ] initialized
+[2017-06-02T00:02:34,679][INFO ][o.e.n.Node               ] [eE7osxw] starting ...
+[2017-06-02T00:02:35,355][INFO ][o.e.t.TransportService   ] [eE7osxw] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2017-06-02T00:02:35,362][WARN ][o.e.b.BootstrapCheck     ] [eE7osxw] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+[2017-06-02T00:02:38,567][INFO ][o.e.c.s.ClusterService   ] [eE7osxw] new_master {eE7osxw}{eE7osxwISMKcoTQd_BrSPQ}{bF8695j5QzSKhHEqG1mPXw}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-elected-as-master ([0] nodes joined)
+[2017-06-02T00:02:38,844][INFO ][o.e.h.HttpServer         ] [eE7osxw] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2017-06-02T00:02:38,845][INFO ][o.e.n.Node               ] [eE7osxw] started
+[2017-06-02T00:02:39,672][INFO ][o.e.g.GatewayService     ] [eE7osxw] recovered [1] indices into cluster_state
+[2017-06-02T00:02:41,720][INFO ][o.e.c.r.a.AllocationService] [eE7osxw] Cluster health status changed from [RED] to [YELLOW] (reason: [shards started [[blogpost-index][1]] ...]).
+[2017-06-02T00:17:19,081][INFO ][o.e.n.Node               ] [eE7osxw] stopping ...
+[2017-06-02T00:17:20,651][INFO ][o.e.n.Node               ] [eE7osxw] stopped
+[2017-06-02T00:17:20,651][INFO ][o.e.n.Node               ] [eE7osxw] closing ...
+[2017-06-02T00:17:20,919][INFO ][o.e.n.Node               ] [eE7osxw] closed
