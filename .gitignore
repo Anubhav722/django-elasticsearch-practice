@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -99,3 +100,8 @@ ENV/
 
 # mypy
 .mypy_cache/
+=======
+*.pyc
+*~
+.tox
+>>>>>>> 302d8d08a77848c9816e0d2c6bf2e42c5c4c3a22
